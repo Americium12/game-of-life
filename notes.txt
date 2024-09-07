@@ -1,0 +1,2 @@
+HUMAN:
+color = rgb(194, 145, 97) //to make it a random

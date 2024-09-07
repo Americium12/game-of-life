@@ -1,0 +1,26 @@
+.center_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.map_grid{
+    display: grid;
+    border: 40px solid aqua;
+    height: 40vw;
+    width: 40vw;
+
+    grid-template-columns: repeat(50, 1fr);
+    grid-template-rows: repeat(50, 1fr);
+
+}
+
+.game_cell{
+
+    background-color: aqua;
+}
