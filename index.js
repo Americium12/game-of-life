@@ -13,6 +13,7 @@ const JSON_entities = [
 console.table(JSON_entities)
 
 const gridMap = document.querySelector(".map_grid");
+let entitiesInGame;
 
 CreateGame();
 
@@ -39,6 +40,8 @@ function createCell() {
     newCell.addEventListener("click", (actualCell) => {
         actualCell = actualCell.target;
         convertCell(actualCell, 1)
+        console.log(getComputedStyle(actualCell));
+        
     });
 
     convertCell(newCell, 0)
